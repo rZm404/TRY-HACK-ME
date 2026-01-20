@@ -4,10 +4,7 @@
 
 Collection de mes walkthroughs détaillés pour les rooms TryHackMe. Ces guides étape par étape couvrent des labs en pentesting, web exploitation, Linux, Active Directory et plus. Idéal pour débutants et intermédiaires préparant OSCP ou eJPT.
 
-[![TryHackMe](https://tryhackme-badge.s3.amazonaws.com/thm-badge.svg)]([https://tryhackme.com/badge?t=rZm404](https://tryhackme.com/p/rZm404))
-
-
-[![TryHackMe](https://tryhackme.com/p/rZm404)
+[TryHackMe](https://tryhackme.com/p/rZm404)
 
 ## À propos
 Ce repo centralise mes notes personnelles sur les boxes TryHackMe complétées. Chaque dossier contient :
