@@ -199,6 +199,7 @@ On accède a http://localhost:8000/ et on observe une image troll :
 ![01996ac953214713095034deaa9223b5.png](./resources/01996ac953214713095034deaa9223b5.png)
 
 On tape simple /root/root.txt dans le champs : 
+
  ![0106d9fa9a9e6ec85fd76986545ef1da.png](./resources/0106d9fa9a9e6ec85fd76986545ef1da.png)
 
 On obtient la chaine de caractère encodé en base 64 : 
