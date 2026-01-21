@@ -35,7 +35,7 @@ PORT     STATE SERVICE VERSION
 |_http-title: magician
 |_http-server-header: nginx/1.14.0 (Ubuntu)
 ```
-![1e767d0eeb4c7cadbbff2c70fa5d925a.png](../resources/1e767d0eeb4c7cadbbff2c70fa5d925a.png)
+![1e767d0eeb4c7cadbbff2c70fa5d925a.png](./resources/1e767d0eeb4c7cadbbff2c70fa5d925a.png)
 
 Nmap indique 3 ports ouverts : 21, 8080 et 8081.
 
