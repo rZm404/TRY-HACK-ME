@@ -2,9 +2,6 @@
 title: THM Magician
 updated: 2026-01-20 20:57:09Z
 created: 2026-01-20 19:22:04Z
-latitude: 47.05940700
-longitude: -0.87978700
-altitude: 0.0000
 ---
 
 # Étape 1 : Énumération initiale
